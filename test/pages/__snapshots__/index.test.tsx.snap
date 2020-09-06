@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <h1>
+      Title
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>
+      Home
+    </h1>
+    <button>
+      Button
+    </button>
+  </main>
+  <footer>
+    <small
+      lang="en"
+    >
+      @ 2020 example.com
+    </small>
+  </footer>
+</DocumentFragment>
+`;
