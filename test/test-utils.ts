@@ -15,8 +15,6 @@ const Providers: React.ComponentType<{ children?: any }> = ({ children }) => {
   // )
 };
 
-type Render = typeof render;
-
 const customRender = (ui: React.ReactElement, options = {}): RenderResult =>
   render(ui, { wrapper: Providers, ...options });
 
