@@ -1,6 +1,6 @@
 {
   "name": "gamehint-hp",
-  "license": "",
+  "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
