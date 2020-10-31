@@ -8,16 +8,22 @@ exports[`About page matches snapshot 1`] = `
     </h1>
     <nav>
       <ul>
-        <li>
+        <li
+          style="display: contents;"
+        >
           <a
             href="/"
+            style="display: inline-block; padding: 12px;"
           >
             Home
           </a>
         </li>
-        <li>
+        <li
+          style="display: contents;"
+        >
           <a
             href="/about"
+            style="display: inline-block; padding: 12px;"
           >
             About
           </a>
