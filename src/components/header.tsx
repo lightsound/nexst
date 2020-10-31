@@ -10,7 +10,7 @@ export const Header: React.FC = () => (
             <a>Home</a>
           </Link>
         </li>
-        <li>
+        <li style={{ marginTop: 8 }}>
           <Link href="/about">
             <a>About</a>
           </Link>
