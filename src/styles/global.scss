@@ -3,3 +3,15 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+html {
+  font-size: 20px;
+}
+header {
+  background-color: chocolate;
+}
+main {
+  background-color: peachpuff;
+}
+footer {
+  background-color: tomato;
+}
