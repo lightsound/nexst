@@ -7,7 +7,7 @@ const Home: React.FC = () => (
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1>Home</h1>
+    <h2>Home</h2>
     <button onClick={() => window.alert("Hello, World!")}>Button</button>
   </Layout>
 );

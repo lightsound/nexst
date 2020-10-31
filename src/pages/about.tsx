@@ -7,7 +7,7 @@ const About: React.FC = () => (
       <title>About</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1>About</h1>
+    <h2>About</h2>
   </Layout>
 );
 
