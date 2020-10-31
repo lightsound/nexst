@@ -32,9 +32,9 @@ exports[`About page matches snapshot 1`] = `
     </nav>
   </header>
   <main>
-    <h1>
+    <h2>
       About
-    </h1>
+    </h2>
   </main>
   <footer>
     <small
