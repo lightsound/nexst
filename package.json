@@ -1,14 +1,14 @@
 {
   "name": "nexst",
-  "license": "MIT",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write \"**/*.{js,ts,tsx}\"",
     "lint": "eslint . --ext ts --ext tsx --ext js",
+    "type-check": "tsc --pretty --noEmit",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
@@ -22,6 +22,11 @@
     "*.@(ts|tsx)": [
       "yarn lint",
       "yarn format"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
     ]
   },
   "prettier": {
