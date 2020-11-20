@@ -46,7 +46,8 @@ module.exports = {
     // "@typescript-eslint/explicit-module-boundary-types": 0,
     // "no-console": ["error", { allow: ["warn", "error"] }],
     "prettier/prettier": ["error", {}, { usePrettierrc: true }],
-    "simple-import-sort/sort": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
