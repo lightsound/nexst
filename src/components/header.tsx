@@ -5,15 +5,17 @@ const items = [
   { href: "/about", label: "About" },
 ];
 
-export const Header: React.FC = () => (
-  <header>
-    <h1>Title</h1>
-    <nav>
-      {items.map((item) => (
-        <Link key={item.href} href={item.href}>
-          <a style={{ display: "inline-block", padding: 12 }}>{item.label}</a>
-        </Link>
-      ))}
-    </nav>
-  </header>
-);
+export function Header() {
+  return (
+    <header>
+      <h1>Title</h1>
+      <nav>
+        {items.map(({ href, label }) => (
+          <Link key={href} href={href}>
+            <a style={{ display: "inline-block", padding: 12 }}>{label}</a>
+          </Link>
+        ))}
+      </nav>
+    </header>
+  );
+}
