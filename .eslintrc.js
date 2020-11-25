@@ -19,6 +19,7 @@ module.exports = {
     "no-restricted-syntax": ["error", { selector: "TSEnumDeclaration", message: "Don't declare enums" }],
     "prefer-arrow-callback": "error",
     "func-style": ["error", "declaration"],
+    "no-restricted-imports": ["error", { paths: [{ name: "react", importNames: ["default"] }] }],
     "react/react-in-jsx-scope": 0,
     "react/display-name": "error",
     "react/destructuring-assignment": ["error", "never"],
