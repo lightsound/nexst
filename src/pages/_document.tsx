@@ -1,8 +1,7 @@
 import type { DocumentContext, DocumentInitialProps } from "next/document";
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
-// eslint-disable-next-line import/no-default-export
-export default class MyDocument extends Document {
+class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx);
     return initialProps;
@@ -21,3 +20,6 @@ export default class MyDocument extends Document {
     );
   }
 }
+
+// eslint-disable-next-line import/no-default-export
+export default MyDocument;

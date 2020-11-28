@@ -5,17 +5,19 @@ const items = [
   { href: "/about", label: "About" },
 ];
 
-export function Header() {
+export const Header = () => {
   return (
     <header>
       <h1>Title</h1>
       <nav>
-        {items.map(({ href, label }) => (
-          <Link key={href} href={href}>
-            <a style={{ display: "inline-block", padding: 12 }}>{label}</a>
-          </Link>
-        ))}
+        {items.map(({ href, label }) => {
+          return (
+            <Link key={href} href={href}>
+              <a style={{ display: "inline-block", padding: 12 }}>{label}</a>
+            </Link>
+          );
+        })}
       </nav>
     </header>
   );
-}
+};

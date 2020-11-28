@@ -4,7 +4,7 @@ import { render } from "@testing-library/react";
 // import { TranslationProvider } from "my-i18n-lib"
 // import defaultStrings from "i18n/en-x-default"
 
-function Providers({ children }: { children?: any }) {
+const Providers = ({ children }: { children?: any }) => {
   return children;
   // return (
   //   <ThemeProvider theme="light">
@@ -13,11 +13,11 @@ function Providers({ children }: { children?: any }) {
   //     </TranslationProvider>
   //   </ThemeProvider>
   // )
-}
+};
 
-function customRender(ui: React.ReactElement, options = {}): RenderResult {
+const customRender = (ui: React.ReactElement, options = {}): RenderResult => {
   return render(ui, { wrapper: Providers, ...options });
-}
+};
 
 // re-export everything
 export * from "@testing-library/react";

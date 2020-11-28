@@ -1,7 +1,7 @@
-export function Footer() {
+export const Footer = () => {
   return (
     <footer>
-      <small lang="en">@ 2020 example.com</small>
+      <small lang="en">@ 20xx example.com</small>
     </footer>
   );
-}
+};

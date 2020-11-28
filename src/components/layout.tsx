@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { Footer } from "src/components/footer";
 import { Header } from "src/components/header";
 
-export function Layout(props: { children: ReactNode }) {
+export const Layout = (props: { children: ReactNode }) => {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ export function Layout(props: { children: ReactNode }) {
       <Footer />
     </>
   );
-}
+};
