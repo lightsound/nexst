@@ -33,7 +33,7 @@ exports[`Home page matches snapshot 1`] = `
     <small
       lang="en"
     >
-      @ 2020 example.com
+      @ 20xx example.com
     </small>
   </footer>
 </DocumentFragment>
