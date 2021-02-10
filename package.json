@@ -53,6 +53,6 @@
     "jest-watch-typeahead": "0.6.1",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
-    "typescript": "4.1.4"
+    "typescript": "4.1.5"
   }
 }
