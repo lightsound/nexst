@@ -5,5 +5,3 @@
 - ESLint
 - Prettier
 - Jest
-- Sass
-- ress (CSS reset)
