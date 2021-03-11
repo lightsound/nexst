@@ -2,6 +2,10 @@ import Head from "next/head";
 import { Layout } from "src/components/layout";
 
 const Home = () => {
+  const handleClick = () => {
+    window.alert("Hello, World!");
+  };
+
   return (
     <Layout>
       <Head>
@@ -9,13 +13,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h2>Home</h2>
-      <button
-        onClick={() => {
-          window.alert("Hello, World!");
-        }}
-      >
-        Button
-      </button>
+      <button onClick={handleClick}>Button</button>
     </Layout>
   );
 };
