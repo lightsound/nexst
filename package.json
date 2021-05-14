@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "run-p -l -c --aggregate-output lint:*",
-    "lint:eslint": "eslint .",
+    "lint:eslint": "eslint --cache .",
     "lint:prettier": "prettier --check .",
     "fix": "run-s fix:prettier fix:eslint",
-    "fix:eslint": "npm run lint:eslint -- --fix",
-    "fix:prettier": "npm run lint:prettier -- --write",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "yarn lint:prettier --write",
     "test": "run-p -l -c --aggregate-output lint:* unit",
     "unit": "jest",
     "prepare": "husky install"
@@ -54,9 +54,7 @@
     "typescript": "4.2.4"
   },
   "lint-staged": {
-    "*": [
-      "npm run fix:eslint",
-      "npm run fix:prettier"
-    ]
+    "*.{ts,tsx}": "yarn fix:eslint",
+    "*": "yarn fix:prettier"
   }
 }
