@@ -3,7 +3,9 @@ import type { VFC } from "react";
 
 const items = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  { href: "/plate", label: "plate" },
+  { href: "/react-quill", label: "react-quill" },
+  { href: "/react-draft-wysiwyg", label: "react-draft-wysiwyg" },
 ];
 
 export const Header: VFC = () => {
