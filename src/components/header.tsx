@@ -4,6 +4,8 @@ import type { VFC } from "react";
 const items = [
   { href: "/", label: "Home" },
   { href: "/plate", label: "plate" },
+  { href: "/mui-rte", label: "mui-rte" },
+  { href: "/tui-editor", label: "tui-editor" },
   { href: "/react-quill", label: "react-quill" },
   { href: "/react-draft-wysiwyg", label: "react-draft-wysiwyg" },
 ];
