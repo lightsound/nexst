@@ -33,7 +33,7 @@
     "@testing-library/react": "12.1.2",
     "@types/jest": "27.0.3",
     "@types/node": "16.11.10",
-    "@types/react": "17.0.36",
+    "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
     "babel-jest": "27.3.1",
